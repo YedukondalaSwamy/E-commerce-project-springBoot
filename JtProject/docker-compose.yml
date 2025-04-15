@@ -28,7 +28,7 @@ services:
       SPRING_DATASOURCE_PASSWORD: yourpassword
     command: >
       java -jar
-      -Dspring.datasource.url=jdbc:mysql://db:3306/jt_db
+      -Dspring.datasource.url=jdbc:mysql://mysql-db:3306/jt_db
       -Dspring.datasource.username=jt_user
       -Dspring.datasource.password=jt_pass
       app.jar
